@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Books Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .book {
+            background: white;
+            border: 1px solid #ccc;
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Old Books Collection</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="book">
+        <h2>The Great Gatsby</h2>
+        <img src="https://via.placeholder.com/150" alt="The Great Gatsby">
+        <p>Author: F. Scott Fitzgerald</p>
+        <p>Published: 1925</p>
+        <p>A classic novel of the Jazz Age, The Great Gatsby explores themes of decadence and idealism.</p>
+    </div>
+
+    <div class="book">
+        <h2>Moby Dick</h2>
+        <img src="https://via.placeholder.com/150" alt="Moby Dick">
+        <p>Author: Herman Melville</p>
+        <p>Published: 1851</p>
+        <p>An epic tale of obsession and revenge, centered around the whaling ship Pequod and its captain, Ahab.</p>
+    </div>
+
+    <div class="book">
+        <h2>Pride and Prejudice</h2>
+        <img src="https://via.placeholder.com/150" alt="Pride and Prejudice">
+        <p>Author: Jane Austen</p>
+        <p>Published: 1813</p>
+        <p>A romantic novel that also critiques the British landed gentry at the end of the 18th century.</p>
+    </div>
+</div>
+
+</body>
+</html>
